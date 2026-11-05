@@ -1,0 +1,4 @@
+@import "./styles/ui.css";     /* AutoCare Pro design system v2 */
+@import "./styles/pages.css";  /* page-level styles */
+
+html, body, #root { width: 100%; min-height: 100%; }

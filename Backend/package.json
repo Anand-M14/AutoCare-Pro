@@ -1,0 +1,33 @@
+{
+  "name": "autocare-pro-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node --test tests/security.test.js tests/migrate-passwords.test.js tests/modules.test.js",
+    "check:key": "node scripts/check-supabase-key.js",
+    "generate:secret": "node scripts/generate-secret.js",
+    "migrate:passwords": "node scripts/migrate-passwords.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "AutoCare Pro - car & bike service management API",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.109.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "ws": "^8.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,7 @@
+.ac-logo { display: inline-flex; align-items: center; gap: 11px; color: var(--cream); }
+.ac-logo.is-stacked { flex-direction: column; text-align: center; gap: 10px; }
+.ac-mark { flex: none; }
+.ac-logo-text { display: flex; flex-direction: column; line-height: 1; min-width: 0; }
+.ac-logo-name { display: flex; align-items: center; gap: 7px; white-space: nowrap; font: 700 18px var(--f-display); letter-spacing: .1em; color: var(--cream); }
+.ac-logo-name b { font: 700 10.5px var(--f-display); letter-spacing: .16em; background: var(--ox); padding: 3px 6px; border-radius: 4px; color: var(--cream); }
+.ac-logo-tag { margin-top: 5px; font-size: 11.5px; color: var(--ash); }
